@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Google Maps JavaScript API サンプル</title>
+    <script
+      async
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOCFxSutXj5eSLrHmEed-8FV1VKGVselg&libraries=places&callback=initMap&v=quarterly"
+    ></script>
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <p>Google Maps APIを使ったサンプル地図。</p>
+    <button onclick="setTokyo()">東京に移動</button>
+    <button onclick="zoomIn()">+</button>
+    <button onclick="zoomOut()">-</button>
+    <div id="map" style="width: 500px; height: 300px"></div>
+    <div id="map-infomation" style="width: 500px; height: 300px"></div>
+    <div id="street-view" style="width: 500px; height: 300px"></div>
+  </body>
+</html>
